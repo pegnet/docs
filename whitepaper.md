@@ -12,19 +12,19 @@ A possible set of assets that would have corresponding pegged tokens might inclu
 | Currencies       | Precious Metals | Cryptocurrencies       |
 | :--------------- |:--------------- | :--------------------- |
 | US Dollar        | Gold            | PNT (The PegNet Token) |
-| Euro             | Silver          | Bitcoin                |
-| Japanese Yen     | Platinum        | Ethereum               |
-| British Pound    | Palladium       | Dash                   |
-| Canadian Dollar  |                 | Bitcoin Cash           |
-| Swiss Franc      |                 | Binance Coin           |
-| Indian Rupee     |                 | Stellar                |
-| Singapore Dollar |                 | Cardano                |
-| Chinese Yuan     |                 | Monero                 |
-| Hong Kong Dollar |                 | Zcash                  |
-| Tiawanese Dollar |                 | Decred                 |
-| Korean Won       |                 | Litecoin               |
-| Argentine Peso   |                 | Ravencoin              |
-| Brazillian Peso  |                 |                        |
+| Euro             | Silver          | Factom                 |
+| Japanese Yen     | Platinum        | Bitcoin                |
+| British Pound    | Palladium       | Ethereum               |
+| Canadian Dollar  |                 | Dash                   |
+| Swiss Franc      |                 | Bitcoin Cash           |
+| Indian Rupee     |                 | Binance Coin           |
+| Singapore Dollar |                 | Stellar                |
+| Chinese Yuan     |                 | Cardano                |
+| Hong Kong Dollar |                 | Monero                 |
+| Tiawanese Dollar |                 | Zcash                  |
+| Korean Won       |                 | Decred                 |
+| Argentine Peso   |                 | Litecoin               |
+| Brazillian Peso  |                 | Ravencoin              |
 | Phillipine Peso  |                 |                        |
 | Mexican Peso     |                 |                        |
 
@@ -168,6 +168,7 @@ Using the Factom Protocol a PegNet Chain will be created that defines the assets
 |Silver Troy Ounce     |XAG                 |pXAG              |
 |Palladium Troy Ounce  |XPD                 |pXPD              |
 |Platinum Troy Ounce   |XPT                 |pXPT              |
+|Factom                |FCT                 |pFCT              |
 |Bitcoin               |XBT                 |pXBT              |
 |Ethereum              |ETH                 |pETH              |
 |Litecoin              |LTC                 |pLTC              |
