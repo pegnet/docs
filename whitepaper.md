@@ -21,7 +21,7 @@ A possible set of assets that would have corresponding pegged tokens might inclu
 | Singapore Dollar |                 | Stellar                |
 | Chinese Yuan     |                 | Cardano                |
 | Hong Kong Dollar |                 | Monero                 |
-| Tiawanese Dollar |                 | Zcash                  |
+| Taiwanese Dollar |                 | Zcash                  |
 | Korean Won       |                 | Decred                 |
 | Argentine Peso   |                 | Litecoin               |
 | Brazillian Peso  |                 | Ravencoin              |
