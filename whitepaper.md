@@ -31,7 +31,8 @@ A possible set of assets that would have corresponding pegged tokens might inclu
 The pegged token for an asset would be designated by adding a ‘p’ to the asset designator.  So the pegged token tracking USD would be pUSD.  Gold would have a pegged token of pGold.  Having a range of pegged tokens would allow the user of PegNet to maintain their holdings in any of the assets supported, and to make transactions in any of the assets supported.
 Asset selection should be driven by market value, availability of market data, and value of the use cases for the pegged token.
 
-![Alt text](https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/170364/949560_799966.png "Figure 1")
+![Alt text](images/PNWP-slide-figure-1.png "PegNet overview illustration 1")
+
 
 ## Definitions
 1. **PegNet** -- A network of tokens pegged to multiple market defined assets and values.
@@ -45,8 +46,7 @@ Pegged Tokens -- tokens that are pegged to market values.  These market values c
 ## Implementation
 The Pegged Network implementation is very simple.  First of all, the Peg (PNT) is the base token of the PegNet.  To boot strap the network the value of PNT will be pegged to 1 to 1 with the aggregated value of all the assets on the network. After PNT is listed on exchanges the peg will be removed and the PNT price will be allowed to float according to the market price on the exchanges.
 
-**PICTURE TO BE INSERTED HERE**
-![Alt text](https://raw.githubusercontent.com/hinamatsuri85/PegNet-whitepaper-transfer/master/images/PegNet.png "figure")
+![Alt text](images/PNWP-slide-figure-2.png "PegNet overview illustration 2")
 
 A Pegged Network works by allowing users to convert between assets as they wish, according to a set of prices supplied by the Oracles parties that publish price data to the Pegged Network.  See the section on Oracles.  When a Pegged Network launches, there are only PNT tokens created through mining and the burning of the Factom Protocol’s FCT token to pFCT. pFCT can be converted to other assets according to the Oracle prices.  And PNT can be priced by the assets in the PegNet, allowing its conversion into other assets. When the Peg is converted, it is destroyed, and the pegged token is created.  The source of the conversion is the backing for the creation of the destination.
 
@@ -56,13 +56,13 @@ Arbitrage will be the mechanism to maintain the pegged prices on exchanges. Cons
 
 First Image
 
-**PICTURE TO BE INSERTED HERE**
+![Alt text](images/PNWP-trade-figure-1.png "trade illustration 1")
 
 A savvy trader can now use PNT to buy pUSD at a discount on the exchange, while making the opposite conversion on the Pegged Network:
 
 Second Image
 
-**PICTURE TO BE INSERTED HERE**
+![Alt text](images/PNWP-trade-figure-2.png "trade illustration 2")
 
 In this example, users are motivated to buy up low priced pUSD on exchanges, since the peg value of pUSD is below the market for USD. Users can both wait for the peg to recover, or go to the Peg Network and maintain their position with a balancing conversion on the Pegged Network.  The gain is a shade over 5 percent, and in the example above the user takes that 5% in PNT.  Of course, they can easily take the 5 percent in USD as well.
 
@@ -71,16 +71,16 @@ The same principle also applies in reverse. In the figure above, the pUSD token 
 First Image
 
 
-**PICTURE TO BE INSERTED HERE**
+![Alt text](images/PNWP-trade-figure-3.png "trade illustration 3")
 
  Users can simply take their gain on the exchange, or go to the Peg Network and maintain their position with a balancing conversion on the Pegged Network.  The gain is a shade over 5 percent, and in the example above the user takes that 5% in pUSD on the exchange.  Of course, they could keep their gain in PNT too.
 Second Image
 
-**PICTURE TO BE INSERTED HERE**
+![Alt text](images/PNWP-trade-figure-4.png "trade illustration 4")
 
 A network of pegged tokens is more efficient than a simple two token system, such as one with a peg token and a pegged asset. The PegNet increases liquidity and stability of value by aggregating the fractional interests of each reference currency/commodity/token (population of participants) capable of executing an arbitrage.  This is because having more tokens means that the arbitrage has greater leverage when balancing a pegged token that is below its peg with a pegged token that is above its peg. So for example if pUSD is below its peg by 5% and pEUR is above its peg by 5%, you might get the following:
 
-**PICTURE TO BE INSERTED HERE**
+![Alt text](images/PNWP-trade-figure-5.png "trade illustration 5")
 
 In this example, pEUR is below its peg by 5 percent, and pUSD is above its peg by ~5 percent.  The arbitrage works to bring both the pEUR and the pUSD to their pegged values, and netting the arbitrager 10% gain, which can be held in pEUR or pUSD (choice of the arbitrager).
 
@@ -99,7 +99,8 @@ Conversions between tokens have the following fields:
 
 A single address can carry balances for all of the tokens in the PegNet.  So a user can send and receive pUSD from the same address as they can send and receive PNT.  From a user experience perspective, the wallet generates particular typed address representations for a particular token in the PegNet.  This prevents someone from accidentally sending PNT to a pUSD address.
 
-![Alt text](https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/170364/573655_289409.png "Figure 2")
+![Alt text](images/PNWP-slide-figure-3.png "PegNet overview illustration 3")
+
 
 ## Oracle
 The PegNet uses a Proof of Work system to collect pricing data from the market.  Miners are required to invest resources in providing the real time market data to PegNet. As part of the Proof of Work, bad market data is filtered out. Where the investment for submitting data is significant, submitting bad data is not worthwhile because it  is ignored, and submitting good data is rewarded.  
@@ -197,12 +198,13 @@ This can be demonstrated in the figure below looking at LXRHash performance as t
 
 LXR Hash Community Testing #1 - [Link On Discord](https://cdn.discordapp.com/attachments/551233917957701668/600579920896327701/g0QklOl.png)
 
-![ALT TEXT](https://cdn.discordapp.com/attachments/551233917957701668/600579920896327701/g0QklOl.png "LXR Hash Community Testing #1")
+![Alt text](images/PNWP-LXRHash-figure1.png "LXR Hash Community Testing #1")
 
 Because processors are designed to have memory access optimized and associated with the cores available in a processor, more hashes can be achieved by running in parallel threads of mining software for every core in the processor.  Running more threads over the number of cores does not increase the hash rate once the thread count is higher than the core count. As seen in the graph below:
 LXR Hash Community Testing #2 - [Link On Discord](https://cdn.discordapp.com/attachments/551233917957701668/600621705563602955/P8ibW6U.png)
 
-![ALT TEXT](https://cdn.discordapp.com/attachments/551233917957701668/600621705563602955/P8ibW6U.png "LXR Hash Community Testing #2")
+![Alt text](images/PNWP-LXRHash-figure2.png "LXR Hash Community Testing #2")
+
 
 ## Pegonomics:  The Economics driving a Pegged Network
 This section will  go into game theory and economics of the Pegged Network in greater depth in this section.  
@@ -249,6 +251,3 @@ There are two legitimate ways to generate pegged tokens in the PegNet system. Fi
 Because mining is more time and labor consuming than burning FCT into pFCT and converting to other PegNet tokens, it would expected that the majority of the assets will be generated via burning. However this also depends on how the market values the PNT token which is rewarded to the Oracle Miners. 
 
 For mitigation of this risk, the PegNet community can encourage exchanges, traders and arbitrators to create a healthy and consistent volume of Pegged Tokens created via burning and flowing onto and off of exchanges. Arbitrageurs will use tokens most above their reference value to sell to buy tokens most below their reference value as that provides the most gain.  At the end of the day, PNT becomes the fall back asset for arbitrage as it’s peg is set to the market price and thus will always be very close to the PegNet value for PNT as it comes from the market.  Demand for PNT will be driven by arbitrage and scarcity, as it never has to be liquidated as PNT on the markets.  Both FCT and PNT will serve as gateways into the PegNet.  FCT when the market is growing, and PNT if the market contracts or is stable for the PegNet.
-
-
-
