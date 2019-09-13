@@ -104,7 +104,7 @@ A single address can carry balances for all of the tokens in the PegNet.  So a u
 
 ## Oracle
 The PegNet uses a Proof of Work system to collect pricing data from the market.  Miners are required to invest resources in providing the real time market data to PegNet. As part of the Proof of Work, bad market data is filtered out. Where the investment for submitting data is significant, submitting bad data is not worthwhile because it  is ignored, and submitting good data is rewarded.  
-As long as most miners submit good data, the pricing data from the Oracle can be trusted. This means that the network is able to access real world market data. Once collected, the Oracle data is published to the Factom blockchain. The PegNet Oracle algorithm leverages the rotocol’s 10 minute blocks, and has a flexible difficulty mechanism to fit within the Factom block structure.  
+As long as most miners submit good data, the pricing data from the Oracle can be trusted. This means that the network is able to access real world market data. Once collected, the Oracle data is published to the Factom blockchain. The PegNet Oracle algorithm leverages the protocol’s 10 minute blocks, and has a flexible difficulty mechanism to fit within the Factom block structure.  
 Factom blocks are ten minutes long, and are divided into 1 minute sections.  Data can be viewed as having been recorded in each one minute section of a block as the protocol records the data. So Oracle mining is proposed to work like this:
 
 1. Miners build an Oracle Price Record (OPR).  The OPR will include:
