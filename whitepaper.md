@@ -13,8 +13,8 @@ A possible set of assets that would have corresponding pegged tokens might inclu
 | :--------------- |:--------------- | :--------------------- |
 | US Dollar        | Gold            | PEG (The PegNet Token) |
 | Euro             | Silver          | Factom                 |
-| Japanese Yen     | Platinum        | Bitcoin                |
-| British Pound    | Palladium       | Ethereum               |
+| Japanese Yen     |                 | Bitcoin                |
+| British Pound    |                 | Ethereum               |
 | Canadian Dollar  |                 | Dash                   |
 | Swiss Franc      |                 | Bitcoin Cash           |
 | Indian Rupee     |                 | Binance Coin           |
@@ -23,9 +23,8 @@ A possible set of assets that would have corresponding pegged tokens might inclu
 | Hong Kong Dollar |                 | Monero                 |
 | Taiwanese Dollar |                 | Zcash                  |
 | Korean Won       |                 | Decred                 |
-| Argentine Peso   |                 | Litecoin               |
-| Brazillian Peso  |                 | Ravencoin              |
-| Philippine Peso  |                 |                        |
+| Brazillian Peso  |                 | Litecoin               |
+| Philippine Peso  |                 | Ravencoin              |
 | Mexican Peso     |                 |                        |
 
 The pegged token for an asset would be designated by adding a ‘p’ to the asset designator.  So the pegged token tracking USD would be pUSD.  Gold would have a pegged token of pGold.  Having a range of pegged tokens would allow the user of PegNet to maintain their holdings in any of the assets supported, and to make transactions in any of the assets supported.
@@ -166,8 +165,6 @@ Using the Factom Protocol a PegNet Chain will be created that defines the assets
 |Mexican Peso          |MXN                 |pMXN              |
 |Gold Troy Ounce       |XAU                 |pXAU              |
 |Silver Troy Ounce     |XAG                 |pXAG              |
-|Palladium Troy Ounce  |XPD                 |pXPD              |
-|Platinum Troy Ounce   |XPT                 |pXPT              |
 |Factom                |FCT                 |pFCT              |
 |Bitcoin               |XBT                 |pXBT              |
 |Ethereum              |ETH                 |pETH              |
