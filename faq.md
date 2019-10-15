@@ -128,7 +128,7 @@
    <details>
       <summary id="what-is-peg" aria-hidden="true">What is PEG?</summary>
       <p>Peg Network Token (PEG) is the PegNet token that summarizes the value of the set of pegged tokens in the market. The market value of all the pegged assets, divided by the number of existing PEG is used to set the value of PEG prior to exchanges establishing a market price. PEG can be converted into any pegged asset and any pegged asset can be converted into PEG. For example, if the value of one PEG is $2.00 you could convert it into two pUSD.</p>
-      <p>Conversion involves burning the asset you are contributing and issuing the asset that you want. This is done in the context of the prices in USD for the assets involved, as determined by the market price.</p>
+      <p>Conversions remove the asset you are contributing from supply and issuing the asset that you want. This is done in the context of the prices in USD for the assets involved, as determined by the market price.</p>
    </details>
    <details>
       <summary id="how-is-the-value-of-assets-determined" aria-hidden="true">How is the value of assets like Gold determined by the network?</summary>
@@ -136,7 +136,7 @@
    </details>
    <details>
       <summary id="what-are-the-tokenomics" aria-hidden="true">What are the PegNet’s tokenomics?</summary>
-      <p>Outside of exchange listings, the two onramps into the PegNet are mining PEG and burning FCT (the token of the Factom Protocol) for pFCT. PEG (Peg Network Token) is the PegNet token that summarizes the value of the set of pegged tokens in the market. The market value of all the pegged assets divided by the number of existing PEG is used to set the value of PEG until exchanges set its value. PEG can be burned into any pegged asset. For example, if the value of one PEG is $2.00 you could burn it into two pUSD (the pegged token for US Dollars). Burning that PEG would reduce the supply of PEG and increase the total value of pegged assets thus increasing the value of remaining PEG. If you burn 100 FCT it creates 100 pFCT. You may then convert the 100 pFCT to pUSD or pBTC or any other asset at the oracle defined market price. When you convert to a new token, the old token is burned (destroyed). Any pegged token may also be burned into PEG.</p>
+      <p>Outside of exchange listings, the two onramps into the PegNet are mining PEG and <a href="how-to-burn-fct-to-pfct">burning FCT (the token of the Factom Protocol) for pFCT</a>. PEG (Peg Network Token) is the PegNet token that summarizes the value of the set of pegged tokens in the market. The market value of all the pegged assets divided by the number of existing PEG is used to set the value of PEG until exchanges set its value. PEG can be converted into any pegged asset. For example, if the value of one PEG is $2.00 you could convert it into two pUSD (the pegged token for US Dollars). Converting that PEG would reduce the supply of PEG and increase the total value of pegged assets thus increasing the value of remaining PEG. If you burn 100 FCT it creates 100 pFCT (<a href="how-to-burn-fct-to-pfct">how to burn</a>). You may then convert the 100 pFCT to pUSD or pBTC or any other asset at the oracle defined market price. When you convert to a new token, the old token is destroyed. Any pegged token may also be converted into PEG.</p>
    </details>
    <details>
       <summary id="why-is-this-better-than-custodian-or-smart-contracts" aria-hidden="true">Why is PegNet superior to custodian or ethereum smart contract based stable coins?</summary>
@@ -146,7 +146,7 @@
    </details>
    <details>
       <summary id="how-is-stability-maintained" aria-hidden="true">How is price stability maintained on exchanges?</summary>
-      <p>Via arbitrage. For example, on an exchange, if pUSD dropped to $0.95, then it could be purchased at the discount (thus raising the price) while simultaneously burning pUSD at the $1.00 set by the external oracle within PegNet. With arbitrage, the profits can be left in any asset on the exchanges, such as USD, BTC, or any other asset.</p>
+      <p>Via arbitrage. For example, on an exchange, if pUSD dropped to $0.95, then it could be purchased at the discount (thus raising the price) while simultaneously converting pUSD at the $1.00 set by the external oracle within PegNet. With arbitrage, the profits can be left in any asset on the exchanges, such as USD, BTC, or any other asset.</p>
    </details>
    <details>
       <summary id="what-are-the-mining-rewards" aria-hidden="true">How many PEG are rewarded per block?</summary>
@@ -170,7 +170,11 @@
    </details>
    <details>
       <summary id="how-to-burn-fct-to-pfct" aria-hidden="true">How do you burn FCT (the token of the Factom Protocol) for pFCT?</summary>
-      <p>You will be able to burn FCT to pFCT by using a special command in the PegNet command-line interpreter (pncli). 100 FCT will be converted into 100 pFCT.</p>
+      <p>You can burn FCT to pFCT with the <code>pegnet</code> executable. Burning FCT to mint pFCT is a one way transaction that gets you into the pegnet network. To execute a burn:</p>
+      <pre><code># pegnet burn &lt;fct address&gt; &lt;fct amount&gt;
+pegnet burn FA3EPZYqodgyEGXNMbiZKE5TS2x2J9wF8J9MvPZb52iGR78xMgCb 100
+</code></pre>
+      <p>This will use <code>factom-walletd</code> to sign the transaction and burn 100 FCT to the burn address <code>EC2BURNFCT2PEGNETooo1oooo1oooo1oooo1oooo1oooo19wthin</code>. Your balance of FCT will be decreased by 100 FCT and your pFCT balance will increase by 100 pFCT.</p>
    </details>
    <details>
       <summary id="who-controls-pegnet" aria-hidden="true">Who controls PegNet?</summary>
