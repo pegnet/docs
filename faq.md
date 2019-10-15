@@ -1,6 +1,8 @@
-<div>
+<div class="faq">
    <details>
-      <summary id="is-there-a-whitepaper" aria-hidden="true">Is there a PegNet whitepaper?</summary>
+      <summary id="is-there-a-whitepaper" aria-hidden="true"><a href="#is-there-a-whitepaper">
+            Is there a PegNet whitepaper?
+      </a></summary>
       <p><a href="https://pegnet.org/docs/whitepaper.html">Yes</a>.</p>
    </details>
    <details>
