@@ -16,6 +16,11 @@ section {
 	float: unset;
 }
 
-.faq .summary {
+.faq summary {
 	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.faq details {
+	margin-bottom: 20px;
 }
