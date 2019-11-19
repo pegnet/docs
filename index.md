@@ -4,5 +4,5 @@ This page contains the documentation for PegNet
 
 * [White paper](whitepaper.md)
 * Conversions
-  * [Calculating Conversions](docs/calculatingconversions.pdf)
-* [Difficulty/HashRate](docs/targeting.pdf)
+  * [Calculating Conversions](pdfdocs/calculatingconversions.pdf)
+* [Difficulty/HashRate](pdfdocs/targeting.pdf)
