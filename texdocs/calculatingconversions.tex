@@ -132,5 +132,50 @@ Conversions are how Pegnet handles converting 1 pAsset to another.
      tolerance = 0.01 * MktRate
     \]
   
+  
+\pagebreak
+\subsection{Pricing}
+
+    All the spread calculations indicate how to run a conversion, however for users, often being able to display a price is must more helpful. When using a broker service like Coinbase, the buy/sell price of bitcoin is listed. The buy price is always larger than the sell price, as the broker will sell at a premium and buy at a discount. Pegnet is not much different, except pegnet will have smaller spreads most of the time.
+    
+    The most simple way to find the buying and selling rate of any given asset pair, is to run a conversion of 1 token. By running the conversion of 1 token through both directions, you can then display the buy/sell price. An example using the data provided below. This data comes from height 206920 on the mainnet. It was specifically chosen to show an example of some extremely high spread. All prices are listed in pUSD unless otherwise specified.
+    \\ 
+
+    \begin{tabular}{|l|l|l|l|l|}
+    \hline
+    Currency & Market Price & Moving Average Price & Volatility Limit & Tolerance \\
+    \hline \hline
+    pFCT     & 3.7948       & 3.4960572            & 1\%               & 0.037948 \\
+    \hline
+    pXBT     & 10408.0785   & 10168.76596492       & 1\%               & 0.01040807 \\
+    \hline
+    \end{tabular}
+    
+    Before we compute the buy/sell price of pFCT/pXBT, it is easier to show how to compute the buy/sell price of each asset individually. Recalling the conversion formula, and plugging in our numbers for pFCT: (pUSD rates are always (1,1) \\[10pt]
+    $SellPrice(pFCT) = 1 * \frac{MinTolerance(3.7948,\ 3.4960572)}{MaxTolerance(1, 1)}$ \\[4pt]
+    $SellPrice(pFCT) = 1 * \frac{3.5340052}{1}$  \\[4pt]
+    $SellPrice(pFCT) = 3.5340052$ \\ 
+    
+    If you want to keep the buy price in the same units of pFCT/pUSD, then rather than running the conversion in the reverse (which would get the units as pUSD/pFCT), we can change the conversion formula to use Max in the numerator and Min in the denominator.  \\[10pt]
+    $BuyPrice(pFCT) = 1 * \frac{MaxTolerance(3.7948,\ 3.4960572)}{MinTolerance(1, 1)}$  \\[4pt]
+    $BuyPrice(pFCT) = 1 * \frac{3.7948}{1}$  \\[4pt]
+    $BuyPrice(pFCT) = 3.7948$ \\
+    
+    Doing this with pXBT yields: \\[10pt]
+    $SellPrice(pXBT)=10272.84674992$ \\[4pt]
+    $BuyPrice(pXBT)=10408.0785$ \\
+    
+    All conversions between pairs use USD as the shared pair. So to find the buy/sell price of the pFCT/pXBT pair, we can use the buy and sell prices calculated above. It should be known that if you used the process above using the pFCT rates vs the pXBT rates, you would get the buy and sell price for the pair. By doing the process individually for each asset, it better shows the spread on both sides of the trading pair. \\[10pt]
+    $SellPrice(pFCT/pXBT) = \frac{SellPrice(pFCT)}{BuyPrice(pXBT)}$ \\[4pt]
+    $SellPrice(pFCT/pXBT) = \frac{3.5340052}{10408.0785)} $ \\[4pt]
+    $SellPrice(pFCT/pXBT) = 0.00033954 $ \\ 
+    
+    And for the BuyPrice  \\
+    $BuyPrice(pFCT/pXBT) = \frac{BuyPrice(pFCT)}{SellPrice(pXBT)}$ \\[4pt]
+    $BuyPrice(pFCT/pXBT) = \frac{3.7948}{10272.84674992}$ \\[4pt]
+    $BuyPrice(pFCT/pXBT) = 0.0003694$
+
+    
+ 
 
 \end{document}
