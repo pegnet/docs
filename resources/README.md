@@ -19,8 +19,14 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * Mining Statistics - [Factoshi.io](https://factoshi.io/pegnet)
 * PegNet Explorer - [pExplorer](https://factoshi.io/pegnet)
 
-# PegNet Mining Pools
-* [Orax Pool](https://www.oraxpool.com/)
-* [Prosper Pool](https://prosperpool.io/)
+# PegNet Wallets
+* [GUI Wallet](https://factomatic.io/wallet/) - [Guide for usage](https://factomize.com/how-to-transfer-peg-from-the-enterprise-wallet-to-the-gui-wallet/)
+* [CLI Wallet setup & usage guide](https://factomize.com/how-to-setup-the-pegnet-ecosystem-for-conversions-and-transfers/)
+
+# PegNet Mining
+* [Mining profitability calculator](https://www.oraxpool.com/calculator)
+* Mining pool 1: [Orax Pool](https://www.oraxpool.com/) - pool "server" is closed source, miner "client" is [open source](https://gitlab.com/oraxpool)
+* Mining pool 2: [Prosper Pool](https://prosperpool.io/) -  pool "server" is [open source](https://github.com/FactomWyomingEntity/prosper-pool), miner "client" is [open source](https://github.com/FactomWyomingEntity/prosper-pool/tree/master/prosper-miner)
+* [Solo mining documentation](https://github.com/pegnet/pegnet/wiki/Mining)
 
 Seeking something more? Think something is missing? Reach out in [Discord](https://pegnet.org/chat)
