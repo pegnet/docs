@@ -18,6 +18,7 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * Marketcap and prices by asset - [PegNetMarketCap](https://pegnetmarketcap.com)
 * Mining Statistics - [Factoshi.io](https://factoshi.io/pegnet)
 * PegNet Explorer - [pExplorer](https://factoshi.io/pegnet)
+* Coinlistings - [CoinGecko](https://www.coingecko.com/en/coins/pegnet) | [Coinmarketcap](https://coinmarketcap.com/currencies/pegnet/)
 
 # PegNet Wallets
 * [GUI Wallet](https://factomatic.io/wallet/) - [Guide for usage](https://factomize.com/how-to-transfer-peg-from-the-enterprise-wallet-to-the-gui-wallet/)
@@ -28,5 +29,12 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * Mining pool 1: [Orax Pool](https://www.oraxpool.com/) - pool "server" is closed source, miner "client" is [open source](https://gitlab.com/oraxpool)
 * Mining pool 2: [Prosper Pool](https://prosperpool.io/) -  pool "server" is [open source](https://github.com/FactomWyomingEntity/prosper-pool), miner "client" is [open source](https://github.com/FactomWyomingEntity/prosper-pool/tree/master/prosper-miner)
 * [Solo mining documentation](https://github.com/pegnet/pegnet/wiki/Mining)
+
+# Advanced Reading and Socials
+* [Whitepaper](https://pegnet.org/docs/whitepaper.html) | [Whitepaper Trial Review](https://whitepapertrail.com/pegnet-project-review/)
+* Medium [PegNet publication](https://medium.com/pegnet) | ["Pegnet" tag](https://medium.com/tag/pegnet/archive)
+* [Factomize Blog, PegNet category](https://factomize.com/category/pegnet/)
+* [Publish0x PegNet](https://www.publish0x.com/tag/pegnet)
+* [Twitter](https://twitter.com/PegNetNews) | [Reddit](https://www.reddit.com/r/PegNet/) | [Discord](https://pegnet.org/chat) | Telegram [Discussion](https://t.me/PegnetOfficial) & [Announcements](https://t.me/pegnetannouncements) | [QQ - QR Code](https://pegnet.org/img/wechat-qr.png)
 
 Seeking something more? Think something is missing? Reach out in [Discord](https://pegnet.org/chat)
