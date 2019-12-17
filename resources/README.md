@@ -36,6 +36,7 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * [FAQ](https://pegnet.org/docs/faq.html)
 * [Whitepaper](https://pegnet.org/docs/whitepaper.html) |
 [Whitepaper Trail Review](https://whitepapertrail.com/pegnet-project-review/)
+* [Bitcointalk announcement](https://bitcointalk.org/index.php?topic=5174967)
 * Medium [PegNet publication](https://medium.com/pegnet) |
 ["Pegnet" tag](https://medium.com/tag/pegnet/archive)
 * Factomize [Blog PegNet category](https://factomize.com/category/pegnet/) |
