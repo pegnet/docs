@@ -12,7 +12,8 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 [Russian](https://docs.google.com/presentation/d/1veQiIxOpPaNS4LCbtVsZ_jS-fdXBb_VkKXUaYr0o79o/edit)
 
 # PegNet Assets
-* [PegNet and Asset logos](https://github.com/pegnet/docs/tree/master/resources/logos)
+* [Asset List](https://pegnet.org/#assets)
+* [Logos / Icons for PegNet and pAssets](https://github.com/pegnet/docs/tree/master/resources/logos)
 
 # PegNet Data
 * Marketcap and prices by asset - [PegNetMarketCap](https://pegnetmarketcap.com)
@@ -30,7 +31,8 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * Mining pool 2: [Prosper Pool](https://prosperpool.io/) -  pool "server" is [open source](https://github.com/FactomWyomingEntity/prosper-pool), miner "client" is [open source](https://github.com/FactomWyomingEntity/prosper-pool/tree/master/prosper-miner)
 * [Solo mining documentation](https://github.com/pegnet/pegnet/wiki/Mining)
 
-# Advanced Reading and Socials
+# Further Reading and Socials
+* [FAQ](https://pegnet.org/docs/faq.html)
 * [Whitepaper](https://pegnet.org/docs/whitepaper.html) | [Whitepaper Trial Review](https://whitepapertrail.com/pegnet-project-review/)
 * Medium [PegNet publication](https://medium.com/pegnet) | ["Pegnet" tag](https://medium.com/tag/pegnet/archive)
 * [Factomize Blog, PegNet category](https://factomize.com/category/pegnet/)
