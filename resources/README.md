@@ -19,7 +19,7 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * Marketcap and prices by asset - [PegNetMarketCap](https://pegnetmarketcap.com)
 * Mining Statistics - [Factoshi.io](https://factoshi.io/pegnet)
 * PegNet Explorer - [pExplorer](https://factoshi.io/pegnet)
-* Coinlistings - [CoinGecko](https://www.coingecko.com/en/coins/pegnet) | 
+* Coinlistings - [CoinGecko](https://www.coingecko.com/en/coins/pegnet) |
 [Coinmarketcap](https://coinmarketcap.com/currencies/pegnet/)
 
 # PegNet Wallets
@@ -34,21 +34,21 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 
 # Further Reading and Socials
 * [FAQ](https://pegnet.org/docs/faq.html)
-* [Whitepaper](https://pegnet.org/docs/whitepaper.html) | 
+* [Whitepaper](https://pegnet.org/docs/whitepaper.html) |
 [Whitepaper Trail Review](https://whitepapertrail.com/pegnet-project-review/)
-* Medium [PegNet publication](https://medium.com/pegnet) | 
+* Medium [PegNet publication](https://medium.com/pegnet) |
 ["Pegnet" tag](https://medium.com/tag/pegnet/archive)
-* Factomize [Blog PegNet category](https://factomize.com/category/pegnet/) | 
+* Factomize [Blog PegNet category](https://factomize.com/category/pegnet/) |
 [Factom Protocol & PegNet Newsletter](https://factomize.com/forums/newsletter/354/view)
 * [Publish0x PegNet](https://www.publish0x.com/tag/pegnet)
-* [Twitter](https://twitter.com/PegNetNews) | 
-[Reddit](https://www.reddit.com/r/PegNet/) | 
-[Discord](https://pegnet.org/chat) | 
-Telegram [Discussion](https://t.me/PegnetOfficial) & [Announcements](https://t.me/pegnetannouncements) | 
-[QQ - QR Code](https://pegnet.org/img/wechat-qr.png) | 
-[Meetups](https://www.meetup.com/pro/pegnet) | 
+* [Twitter](https://twitter.com/PegNetNews) |
+[Reddit](https://www.reddit.com/r/PegNet/) |
+[Discord](https://pegnet.org/chat) |
+Telegram [Discussion](https://t.me/PegnetOfficial) & [Announcements](https://t.me/pegnetannouncements) |
+[QQ - QR Code](https://pegnet.org/img/wechat-qr.png) |
+[Meetups](https://www.meetup.com/pro/pegnet) |
 [YouTube Channel](https://www.youtube.com/channel/UCXv7IyC0Dz21-VxE2n0Z7nw)
-* PegNet [Source code](https://github.com/pegnet) | 
+* PegNet [Source code](https://github.com/pegnet) |
 [Contributor guide](https://github.com/pegnet/pegnet/wiki/Developer-Quickstart)
 
 Seeking something more? Think something is missing? Reach out in [Discord](https://pegnet.org/chat)
