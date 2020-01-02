@@ -36,7 +36,8 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 # Developer Resources
 * PegNet [Source code](https://github.com/pegnet) |
 [Contributor guide](https://github.com/pegnet/pegnet/wiki/Developer-Quickstart)
-* [PegNetD Rust Client](https://github.com/kompendium-llc/pegnetd-rust-client)
+* PegNetD Client Libraries - [Python](https://github.com/pegnet/pegnet-py) |
+[Rust](https://github.com/kompendium-llc/pegnetd-rust-client)
 
 # Further Reading and Socials
 * [FAQ](https://pegnet.org/docs/faq.html)
