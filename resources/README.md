@@ -21,6 +21,7 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * PegNet Explorer - [pExplorer](https://factoshi.io/pegnet)
 * Coinlistings - [CoinGecko](https://www.coingecko.com/en/coins/pegnet) |
 [Coinmarketcap](https://coinmarketcap.com/currencies/pegnet/)
+* Address Accounting Tool - [PegTX](https://github.com/kompendium-llc/pegtx)
 
 # PegNet Wallets
 * [GUI Wallet](https://factomatic.io/wallet/) - [Guide for usage](https://factomize.com/how-to-transfer-peg-from-the-enterprise-wallet-to-the-gui-wallet/)
