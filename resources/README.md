@@ -11,9 +11,9 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 [Korean](https://drive.google.com/file/d/1SDB26HL3od2Wd3iHHR5g7A-ZcW-KUXkp/view) |
 [Russian](https://docs.google.com/presentation/d/1veQiIxOpPaNS4LCbtVsZ_jS-fdXBb_VkKXUaYr0o79o/edit)
 
-# PegNet Assets
-* [Asset List](https://pegnet.org/#assets)
+# PegNet Logos & Graphics
 * [Logos / Icons for PegNet and pAssets](https://github.com/pegnet/docs/tree/master/resources/logos)
+* [Website Graphics / Assets](https://github.com/pegnet/pegnet.github.io/tree/master/assets)
 
 # PegNet Data
 * Marketcap and prices by asset - [PegNetMarketCap](https://pegnetmarketcap.com)
@@ -32,6 +32,11 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * Mining pool 2: [Prosper Pool](https://prosperpool.io/) -  pool "server" is [open source](https://github.com/FactomWyomingEntity/prosper-pool), miner "client" is [open source](https://github.com/FactomWyomingEntity/prosper-pool/tree/master/prosper-miner)
 * [Solo mining documentation](https://github.com/pegnet/pegnet/wiki/Mining)
 
+# Developer Resources
+* PegNet [Source code](https://github.com/pegnet) |
+[Contributor guide](https://github.com/pegnet/pegnet/wiki/Developer-Quickstart)
+* [PegNetD Rust Client](https://github.com/kompendium-llc/pegnetd-rust-client)
+
 # Further Reading and Socials
 * [FAQ](https://pegnet.org/docs/faq.html)
 * [Whitepaper](https://pegnet.org/docs/whitepaper.html) |
@@ -49,7 +54,5 @@ Telegram [Discussion](https://t.me/PegnetOfficial) & [Announcements](https://t.m
 [QQ - QR Code](https://pegnet.org/img/wechat-qr.png) |
 [Meetups](https://www.meetup.com/pro/pegnet) |
 [YouTube Channel](https://www.youtube.com/channel/UCXv7IyC0Dz21-VxE2n0Z7nw)
-* PegNet [Source code](https://github.com/pegnet) |
-[Contributor guide](https://github.com/pegnet/pegnet/wiki/Developer-Quickstart)
 
 Seeking something more? Think something is missing? Reach out in [Discord](https://pegnet.org/chat)
