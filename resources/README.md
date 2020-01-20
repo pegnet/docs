@@ -21,6 +21,7 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * PegNet Explorer - [pExplorer](https://factoshi.io/pegnet)
 * Coinlistings - [CoinGecko](https://www.coingecko.com/en/coins/pegnet) |
 [Coinmarketcap](https://coinmarketcap.com/currencies/pegnet/)
+* Free courtesy PegNet node service as an alternative to runing your own local node - [pNode](https://pegnetd.com/)
 * Address Accounting Tool - [PegTX](https://github.com/kompendium-llc/pegtx)
 
 # PegNet Wallets
@@ -37,7 +38,9 @@ The content you need to be informed about [PegNet](https://pegnet.org).
 * PegNet [Source code](https://github.com/pegnet) |
 [Contributor guide](https://github.com/pegnet/pegnet/wiki/Developer-Quickstart)
 * PegNetD Client Libraries - [Python](https://github.com/pegnet/pegnet-py) |
-[Rust](https://github.com/kompendium-llc/pegnetd-rust-client)
+[Rust](https://github.com/kompendium-llc/pegnetd-rust-client) |
+[Haskell](https://github.com/kompendium-llc/pegnetd-haskell-client)
+* PegTrader - extended PegNetD Python wrapper with additional API Methods [Introduction](https://kompendium.co/?p=1764) | [Source code](https://github.com/kompendium-llc/pegtrader)
 
 # Further Reading and Socials
 * [FAQ](https://pegnet.org/docs/faq.html)
